@@ -205,6 +205,22 @@ a {
   .sidebar {
     width: 100%;
   }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .sidebar-item .mobile-image {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+.mobile-image {
+  display: none;
+}
 }
 
 .sidebar img {
@@ -348,7 +364,7 @@ a {
 .video-description {
   margin-bottom: 32px;
   margin-left: 0;
-  padding-left: 0; 
+  padding-left: 0;
 }
 
 footer {
