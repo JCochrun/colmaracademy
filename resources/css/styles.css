@@ -1,6 +1,6 @@
 * {
   font-family: "Open Sans",Helvetica,sans-serif;
-  color: #424242;
+  color: #474747;
 }
 
 html {
@@ -126,6 +126,13 @@ a {
   text-align: left;
 }
 
+@media only screen and (max-device-width: 480px){
+  .image-content {
+    width:100%;
+    margin:0px;
+  }
+}
+
 .image-container {
   width: 100%;
   height: auto;
@@ -158,11 +165,25 @@ a {
   .right h1,h3 {
     padding-left: 16px;
   }
+
+  .right h1 {
+    font-size: 6rem;
+  }
+
+  .right h3 {
+    font-size: 4rem;
+  }
+
   div .startbtn {
     margin: 24px 16px 32px 16px;
     background-color: gray;
     width: 96%;
     color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 24px;
+
   }
 }
 
@@ -185,6 +206,11 @@ a {
 @media only screen and (max-device-width: 480px){
   #information .image-content {
     display: none;
+  }
+
+  .item-content {
+    text-align: left;
+    width: 100%;
   }
 
   #footsidebar {
@@ -288,8 +314,34 @@ a {
     background-color: white;
   }
 
+  .item-content {
+    padding: 0;
+    margin-left: 32px;
+    margin-bottom: 64px;
+  }
+
+  .sidebar-item h3, p {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sidebar-item h3 {
+    font-size: 3.5rem;
+  }
+
+  .sidebar-item p {
+    font-size: 2rem;
+  }
+
+  .sidebar-item a {
+    font-size: 2rem;
+    color: #4995ff;
+    margin-bottom: 64px;
+  }
+
   .sidebar-item {
     flex-direction: column;
+    margin: 0 16px;
   }
   .sidebar-item img {
     width: 100%;
@@ -365,6 +417,22 @@ a {
   margin-bottom: 32px;
   margin-left: 0;
   padding-left: 0;
+}
+
+@media only screen and (max-device-width: 480px){
+
+  div#thesis {
+    padding-bottom:0;
+  }
+
+  .video-description,
+  .video-title {
+    display: none;
+  }
+
+  footer {
+    padding-top:36px;
+  }
 }
 
 footer {
