@@ -222,11 +222,15 @@ a {
   }
 }
 
+#information .section {
+  margin-right: 0;
+  padding-right: 32px;
+}
+
 .sidebar {
   display: flex;
   width: 40%;
   flex-direction: column;
-  border-left: 1px solid #dadada;
   padding-top: 32px;
   height: 100%;
 }
@@ -405,10 +409,10 @@ a {
 }
 
 .grid-item h3 {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 .grid-item p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 
