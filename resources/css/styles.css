@@ -207,6 +207,10 @@ a {
   #information .image-content {
     display: none;
   }
+  
+  .hr-quote p {
+    margin-left: 0;
+  }
 
   .item-content {
     text-align: left;
